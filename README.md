@@ -1,11 +1,11 @@
-## OpenMP Implementation
+# OpenMP Implementation
 
 OpenMP implementation to solve sudoku 16x16 for HPC course from UCN.
 
-- ### For Compile
+- ## For Compile
 `gcc -g Sudoku.c Tableboard.c -O3 -fopenmp -o sudoku`
 
-- ### For Run
+- ## For Run
 `./sudoku N_Threads values.txt` 
 - #### Defatult threads = 4 in case you write a negative number.
 - #### Format `N_Threads` is Integer: 1,2,3,... 16
