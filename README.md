@@ -7,8 +7,8 @@ OpenMP implementation to solve sudoku 16x16 for HPC course from UCN.
 
 - ### For Run
 `./sudoku N_Threads values.txt` 
- - Defatult threads = 4 in case you write a negative number.
- - Format `N_Threads` is Integer: 1,2,3,... 16
+- #### Defatult threads = 4 in case you write a negative number.
+- #### Format `N_Threads` is Integer: 1,2,3,... 16
 
 - ### SpeedRun
 
